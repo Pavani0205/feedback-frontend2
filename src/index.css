@@ -1,0 +1,73 @@
+/* Global Background */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #2196f3, #e3f2fd); /* Blue gradient */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Main app container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* White card container */
+.container {
+  flex: 1;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1976d2;
+}
+
+.header h1 {
+  color: #0d47a1;
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  background: #1976d2;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1565c0;
+}
+
+/* Controls (filter + search) */
+.controls {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.controls select,
+.controls input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
